@@ -32,11 +32,11 @@ body p{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
 }
 img{
     max-width: 100%;
-    max-height: 500px;
+    max-height: 600px;
     display: block;
 }
 #hero{
@@ -49,7 +49,7 @@ img{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 15px 0 20px 0;
+    padding: 60px 0 20px 0;
 }
 #hero p{
     display: flex;
@@ -110,27 +110,39 @@ img{
     align-items: center;
     justify-content: center;
 }
+#text-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
 .background{
     overflow: hidden;
     background-color: var(--second-background);
     border-radius: 20px;
-    max-width: 92%;
+    max-width: 91%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
+
+#list{
+    font-size: 0.9em;
+}
 #second-text-intro img{
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 100%;;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 .question{
     background-color: var(--background-color);
-    padding: 1.2rem 1rem 1.2rem 1rem;
+    padding: 1.1rem;
     display: flex;
     justify-content: space-between;
     width: 88%;
@@ -145,20 +157,15 @@ img{
     width: 88%;
     flex-wrap: wrap;
 }
-.resposta{
-    width: 80%;
+#resposta{
+    padding-right: 50px;
+    font-size: 0.7em;
+    padding-top: 5px;
 }
-
 #answer{
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-#text-h2{
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 #br{
     height: 100px;
@@ -167,17 +174,17 @@ img{
 .footer{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding-top: 50px;
     background-color: var(--primary-color);
     color: var(--background-color);
     padding: 15px;
 }
 #hero-footer h1{
     margin-bottom: 15px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 #hero-footer p{
     margin-bottom: 15px;
+    line-height: 170%;
 }
 #hero-footer button{
     margin: 40px 0 80px 0;
@@ -186,7 +193,43 @@ img{
     border-radius: 20px;
     padding: 10px 15px;
 }
+#footer-main p{
+    line-height: 170%;
+}
+#footer-navigation nav ul{
+    list-style: none;
+}
 #footer-navigation{
-    text-decoration: none;
-    margin-top: 80px;
+    margin-top: 90px;
+    font-size: 0.9em
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 20%;
+}
+#footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr; 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20%;
+}
+.link li{
+    padding: 10px 0px;
+}
+#final-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#row{
+    display: flex;
+    flex-direction: row;
+}
+#color{
+    margin-left: 2px;
+    color:#A0DA7A;
 }
