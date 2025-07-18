@@ -233,3 +233,64 @@ img{
     margin-left: 2px;
     color:#A0DA7A;
 }
+
+@media(min-width: 1024px){
+    html{
+        font-size: 30px;
+    }
+    #menu-mobile {
+        display: none;
+    }
+    #menu-desktop {
+        display: flex;
+    }
+    .header {
+        font-size: 0.8rem;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        display: flex;
+        align-self: center;
+        padding: 2% 5% 2% 5% ;
+    }
+    #menu-desktop nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        font-size: 0.5em;
+    }
+    #login{
+        justify-self: end;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+        font-size: 0.5rem;
+    }
+    button{
+        border-radius: 25px;
+        padding: 8px;
+        background-color: var(--primary-color);
+        border: 0;
+        color: var(--background-color);
+    }
+    #login p{
+        padding-top: 5px;
+    }
+    #logo{
+        font-size: 0.6rem;
+        padding-left: 25px;
+    }
+
+    main strong{
+        font-size: 2rem;
+    }
+    #hero p{
+        font-size: 0.5rem;
+    }
+    #hero img{
+        width: 98%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
