@@ -10,9 +10,9 @@
     box-sizing: border-box;
     font-family: var(--font-body);
 }
-body h1{
+h1 {
     font-size: 40px;
-}
+  }  
 body h2{
     font-size: 1.8em;
 }
@@ -29,14 +29,20 @@ body p{
 #menu-desktop{
     display: none;
 }
+#login{
+    display: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
+#imagem-desktop {
+    display: none;
+}
 img{
     max-width: 100%;
-    max-height: 600px;
+    max-height: 1000px;
     display: block;
 }
 #hero{
@@ -146,10 +152,10 @@ img{
     display: flex;
     justify-content: space-between;
     width: 88%;
-    border-radius: 5%;
+    border-radius: 8px;
 }
 .question2{
-    border-radius: 5%;
+    border-radius: 8px;
     background-color: var(--background-color);
     padding: 1.2rem 1rem 1.2rem 1rem;
     display: flex;
@@ -238,6 +244,7 @@ img{
     html{
         font-size: 30px;
     }
+ 
     #menu-mobile {
         display: none;
     }
@@ -287,10 +294,85 @@ img{
     #hero p{
         font-size: 0.5rem;
     }
-    #hero img{
-        width: 98%;
+    #hero img { /*primeira imagem*/
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+    }
+    
+    #firts-text-intro img{ /*segunda imagem*/
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }  
+    #second-text-intro img{ /*tira a img do mobile*/
+        display: none;
+    }
+    #imagem-desktop {
+        display: flex;
+
+    }
+    #imagem-desktop {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        padding: 90px 10px 0 10px;
+    }
+    .background{
+        width: 80%;
         height: auto;
         display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
     }
+    #list h3{
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    #list{
+        padding-top: 20px;
+        display: flex;
+        width: 150%;
+    }
+    #list p{
+        padding-top: 10px;
+        font-size: 0.5em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    
+    /*FOOTER*/
+
+    .footer{
+        padding-left: 10%;
+       
+    }   
+    #hero-footer {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #hero-footer h1{
+        padding-right: 26%;
+        padding-bottom: 5%;
+    }
+    #hero-footer p{
+        padding-top: 5%;
+        font-size: 0.6em;
+    }
+    #hero-footer button{
+        
+    }
+
+
+      
 }
